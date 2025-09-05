@@ -1,6 +1,13 @@
-const { SpotCoin,FutureCoin,SwapCoin,IndexCoin } = require('../src');
+const {
+  LongShortAccountRatio,
+LoanRatio,
+Candles,
+TakerVolume,
+InstrumentsCoinList,
 
-   IndexCoin({
+  SupportCoinData,AllCoinData,CurrencyData,ProjectCoin, SpotCoin,FutureCoin,SwapCoin,IndexCoin,TradeData } = require('../src');
+
+   InstrumentsCoinList({
        currency: 'idr',
        quoteCurrency: 'usdt'
    })
